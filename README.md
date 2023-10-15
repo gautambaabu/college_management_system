@@ -17,21 +17,21 @@ The College Management System is a Python-based application designed to facilita
 
 To run the College Management System locally, follow these steps:
 
-Clone the repository to your local machine:
+1. Clone the repository to your local machine:
 
    
-   git clone https://github.com/gautambaabu/college_management_system.git
+git clone https://github.com/gautambaabu/college_management_system.git
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
 cd college-management-system
 
 
-Install any necessary dependencies:
+3. Install any necessary dependencies:
 
 pip install -r requirements.txt
 
-Execute the main script:
+4. Execute the main script:
 
 python main.py
 
