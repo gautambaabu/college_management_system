@@ -19,22 +19,22 @@ To run the College Management System locally, follow these steps:
 
 1. Clone the repository to your local machine:
 
-   
+```bash 
 git clone https://github.com/gautambaabu/college_management_system.git
-
+```
 2. Navigate to the project directory:
-
+```bash
 cd college-management-system
-
+```
 
 3. Install any necessary dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 4. Execute the main script:
-
+```
 python main.py
-
+```
 Usage
 Admin Login: Log in as an admin using the default username "admin" and password "password."
 
