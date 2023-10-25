@@ -1,9 +1,8 @@
 import mysql.connector as mysql
 
-# Connect to the MySQL server
+
 db = mysql.connect(host="localhost", user="root", password="")
 
-# Create the 'college' database if it doesn't exist
 try:
     command_handler = db.cursor()
     command_handler.execute("CREATE DATABASE IF NOT EXISTS college")
@@ -12,10 +11,9 @@ except Exception as e:
     print("Failed to create or access the 'college' database.")
     print(e)
 
-# Close the connection to the MySQL server
 db.close()
 
-# Connect to the 'college' database
+
 db = mysql.connect(host="localhost", user="root", password="", database="college")
 command_handler = db.cursor(buffered=True)
 
